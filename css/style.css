@@ -1,0 +1,334 @@
+*{
+    margin: 0px;
+}
+nav{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+i{
+color: #1e90c6;
+}
+.navhead{
+    width: 20%;
+    display: flex;
+    
+}
+.nav{
+    width: 80%;
+    display: flex;
+   
+}
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.nav li{
+    display: inline-block;
+    height: 40px ;
+    line-height: 40px;
+    text-align: center;
+    padding: 5px;
+    margin-left:  15px;
+
+}
+.nav li a {
+    
+    text-decoration: none;
+    color:black;
+    
+ }
+ .nav li:hover{
+    background-color: #1e90c6;
+  }
+  header{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    color: white;
+
+  }
+  .header{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+  }
+ .header button{
+    width: 150px;
+    height: 30px;
+    background-color: #f58560;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+  }
+  .title{
+    width: 130px;
+    height: 25px;
+    position: absolute;
+    margin-top: 400px;
+    border-radius: 5px;
+    background-color: #1e90c6;
+    text-align: center;
+    line-height: 25px;
+  }
+  section{
+    width: 100%;
+  }
+  .services{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+  }
+  .service{
+    text-align: center;
+    width: 25%;
+    font-size: small;
+  }
+  .service i{
+    color: #1e90c6;
+    font-size: 70px;
+    
+    
+  }
+  .portfoliohead{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+  .portfoliohead h1{
+    color: #f58560;
+    margin-top: 10px;
+  }
+  .portfoliohead button{
+    color: white;
+    background-color: #1e90c6;
+    margin-top: 10px;
+  }
+  .portfolio{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+  }
+  .portfolio img{
+    width: 100%;
+    border: 4px solid #eae9ee;
+  }
+  .image{
+    width: 30%;
+  }
+  .white{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  .white p{
+    font-size: smaller;
+    
+  }
+  .white q{
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+  }
+  .offers{
+    display: flex;
+    justify-content: space-around;
+  }
+  .offer{
+padding: 5px;
+  }
+  .offer p{
+    font-size: smaller;
+    padding: 5px;
+  }
+  .offer button{
+    width: 60px;
+    height: 20px; 
+    background-color: #1e90c6;
+    border: none;
+    border-radius: 5px;
+    
+  }
+  .images{
+    display: flex;
+    justify-content: center;
+  }
+  .images img{
+    width:80px ;
+    height: 80px;
+    clip-path: circle(50%);
+    padding: 5px;
+  }
+  footer{
+    background-color: #2e3e4e;
+    
+  }
+  .footer{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+  }
+  .footer p{
+    color: white;
+    font-size: small;
+    padding: 5px;
+  }
+  .footer a{
+    color:#1e90c6;
+    font-size: small;
+    padding: 5px;
+  }
+  .footer hr{
+    width: 90%;
+  }
+  .footer h3{
+    color: #f58560;
+  }
+  .footersection{
+    width: 25%;
+  }
+  .projects{
+    display: flex;
+    justify-content: flex-start;
+    
+  }
+  .projects img{
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+  }
+.contact{
+    display: flex;
+    justify-content: flex-start;
+}
+.contact i{
+    font-size: 35px;
+    margin: 10px 0px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+   
+}
+.main{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.section1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-right: 1px solid gray;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+}
+.required:after {
+    content:" *";
+    color: red;
+  }
+  .required{
+    margin: 10px 0px;
+  }
+  .code{
+    display: flex;
+    justify-content: flex-start;
+  }
+  form button{
+    width: 65px;
+    height: 25px; 
+    background-color: #1e90c6;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 180px;
+  }
+  .section2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .first{
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    width: 70%;
+    margin: auto;
+
+  }
+  .logos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #abacb0;
+    width: 20%;
+    margin-right: 10px;
+  }
+  .logos i{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+  }
+  .contacts{
+    width: 60%;
+    text-align: justify;
+  }
+  .contacts a{
+    color:#1e90c6;
+    font-size: small;
+    padding: 5px;
+  }
+  .section2 img{
+    width: 300px;
+    height: 200px;
+    margin-left: 40px;
+  }
+  .section2 h3{
+    margin-left: 40px;
+  }
+  .colors{
+    display: flex;
+    justify-content:space-around;
+    width: 50%;
+    margin-left: 40px;
+  }
+  
+.active{
+  background-color: #1e90c6;
+}
